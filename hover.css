@@ -1,0 +1,39 @@
+.hide {
+    display: none; 
+  }
+
+  .myDIV:hover + .hide {
+    display: block;
+    background-color: red;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .myDIV:hover {
+      display: none;
+  }
+
+  .myDIV {
+    background-color: lime;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  .myDIV h1 {
+    padding-top: 22%;
+  }
+  
+  .hide h1 {
+    padding-top: 22%;
+  }
