@@ -2,20 +2,24 @@
 <html lang="en">
 <head>
     <title>login form</title>
+    <link rel="stylesheet" href="myFormStyle.css">
 </head>
 <body>
-    <div>
-        <h1 id="topText">Hello World</h1>
+    
+    <div id="container">
+        <div>
+            <h1 id="topText">Hello World</h1>
+        </div>
+        <form action="#">
+            <label for="uname">Username</label><br>
+            <input type="text" id="uname" name="uname"><br>
+            <label for="email">Email</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="password" id="password" name="password">Password</label><br>
+            <input type="password" id="pass" name="pass"><br>
+            <input type="button" id="button" name="button" onclick="check();" value="submit">
+        </form>
     </div>
-    <form action="#">
-        <label for="uname">Username</label><br>
-        <input type="text" id="uname" name="uname"><br>
-        <label for="email">Email</label><br>
-        <input type="text" id="email" name="email"><br>
-        <label for="password" id="password" name="password">Password</label><br>
-        <input type="password" id="pass" name="pass"><br>
-        <input type="button" id="button" name="button" onclick="check();">
-    </form>
     <script type="text/javascript" src="./form.js"></script>
 </body>
 </html>
