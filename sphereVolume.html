@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div class="header">
+            <h1>Hello There!</h1>
+            <p>Enter the radius of a sphere in the form below and I'll tell you its volume!</p>
+        </div>
+        <div id="input-form">
+            <form action="#">
+                <label for="sphere-radius">Radius of your sphere:  </label>
+                <input type="text" id="sphere-radius" name="sphere-radius">
+                <!-- input field for user to enter radius -->
+                <input type="submit" id="submitValue" value="Submit" onclick="displayVolume()">
+            </form>
+        </div>
+    </div>
+
+<script src="sphereScript.js"></script>
+</body>
+</html>
